@@ -11,10 +11,10 @@ spec:
       claimName: shared-task-storage
   params:
   - name: repo-url
-    value: https://github.com/{YOUR_GIT_ID}/modresorts10war
+    value: https://github.com/lee-zhg/modresorts
   - name: branch-name
     value: master
   - name: repo-dockerfile
     value: Dockerfile
   - name: image-url
-    value: image-registry.openshift-image-registry.svc:5000/myproject/modresorts10war:latest
+    value: image-registry.openshift-image-registry.svc:5000/app-mod-proj/modresorts10war:latest
